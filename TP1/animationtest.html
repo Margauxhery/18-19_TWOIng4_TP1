@@ -1,16 +1,16 @@
 <!doctype html>
 <html lang = "fr">
 <head>
-	<meta charset = utf-8>
-	<title> CV Margaux Héry</title>
+  <meta charset = utf-8>
+  <title> Contactez moi</title>
 </head>
 
-<!-- MENU BURGER-->
+
 <nav role="navigation">
   <div id="menuToggle">
-  	<input type="checkbox" />
+    <input type="checkbox" />
 
-  	<span></span>
+    <span></span>
     <span></span>
     <span></span>
 
@@ -23,24 +23,88 @@
   </div>
 </nav>
 
-<!--FIN DE MENU BURGER-->
 
-
-<!-- logo-->
-
- <a type="image" id="image" href="index.html"><img src="image/logomh.png" /></a>
-
- <style>
-  input[type='image'] {
-    float:right;
+<style type="text/css">
+.form-style-6{
+	font: 95% Bradley Hand, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
 }
-</style>
+.form-style-6 h1{
+	background: #232323;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #232323;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #2EBC99;
+}
 
 
-
-<!--CSS-->
-<style>
-	body
+  body
 {
   margin: 0;
   padding: 0;
@@ -191,6 +255,7 @@ a:hover
 {
   transform: none;
 }
+
 #Titre
 {
   display: inline-block;
@@ -215,63 +280,20 @@ a:hover
   font-size: 1.0em;
 }
 
-#PHOTOM
-{
-position : absolute;
-top : 60px;
-left : 300px;
-
-#blur div PHOTOM {
-	-webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-#blur div:hover img {
-	-webkit-filter: blur(0);
-	filter: blur(0);
-}
-
-
 </style>
 
- <img
-    src="image/PHOTOM.jpg" 
-    id="PHOTOM"
-    alt="PHOTOM"
-    height="400px" 
-    width="300px" 
-/>
-
-<br><br><br>
-<aside>
-    <div id="Titre2">Mes Coordonées</div>
-</aside>
-
-<aside>
-    <div id="Description">
-      <li>Date de Naissance : 13/08/1998</li>
-        <li>Adresse : 203 Rue de la Convention 75015 PARIS</li>
-          <li>Mail : margaux.hery@hotmail.fr</li>
-            <li>Numéro de téléphone : 07 85 35 46 16</li>
-    </div>
-</aside>
-
-
-<br><br><br><br><br><br><br><br><br>
-  <div id="Description">Je suis actuellement en 2eme année du cycle ingénieur à l'ECE-PARIS.
-    <p> Je suis à la recherche d'un stage de 4 mois à partir de mi-avril. Je souhaiterai occuper un post de chef de projet ou suivie d'étude idéalement à l'étranger. 
-</p>
+<main>
+  <section id="Titre">Contactez moi </section>
+  <br><br><br><br><br><br>
+<div class="form-style-6">
+<form>
+<input type="text" name="field1" placeholder="Votre nom" />
+<input type="email" name="field2" placeholder="Votre Adresse Mail" />
+<textarea name="field3" placeholder="Tapez votre message"></textarea>
+<input type="submit" value="Envoyer" />
+</form>
 </div>
 
-
-  <style>
-  aside {
-    width: 70%;
-    padding-left: .1rem;
-    margin-left: .1rem;
-    float: right;
-}
-
+</main>
 
 
